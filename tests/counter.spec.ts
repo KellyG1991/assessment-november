@@ -13,7 +13,7 @@ export class CounterTests {
   @test "second function should always return null"() {
     const [getA, nextA] = counter(1);
     expect(getA()).to.eq(1);
-    expect(nextA()).to.be.null;
+    expect(nextA()).to.be.undefined;
   }
 
   @test

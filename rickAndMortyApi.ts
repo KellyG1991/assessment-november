@@ -15,7 +15,7 @@ export type ApiRickMortyEpisode = {
   name: string;
   air_date: string;
   episode: string;
-  characters: [string];
+  characters: string[];
   url: string;
   created: string;
 };
@@ -30,7 +30,7 @@ export type Character = {
   origin: OriginLocation;
   location: OriginLocation;
   image: string;
-  episode: [string];
+  episode: string[];
   url: string;
   created: string;
 };
